@@ -1,0 +1,22 @@
+/*
+Open the following link to edit this config on Themify
+file:///C:/Users/lgk/AppData/Local/Programs/themify/resources/app.asar/docs/index.electron.html#/home/%7B%22name%22%3A%22Rounded%22%2C%22btHashVars%22%3A%7B%22%24border-radius%22%3A%22.5rem%22%2C%22%24border-radius-lg%22%3A%22.7rem%22%2C%22%24border-radius-sm%22%3A%22.3rem%22%2C%22%24btn-border-radius%22%3A%221000px%22%2C%22%24btn-border-radius-lg%22%3A%22%24btn-border-radius%22%2C%22%24btn-border-radius-sm%22%3A%22%24btn-border-radius%22%7D%7D
+*/
+
+
+// Components
+//
+
+$border-radius: .5rem;
+$border-radius-lg: .7rem;
+$border-radius-sm: .3rem;
+
+
+// Buttons
+//
+
+$btn-border-radius: 1000px;
+$btn-border-radius-lg: $btn-border-radius;
+$btn-border-radius-sm: $btn-border-radius;
+
+

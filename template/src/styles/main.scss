@@ -1,0 +1,15 @@
+/* Hint: Use Themify to customize the look of your Blue app! */
+
+@import "./theme";
+
+/* Stylesheet for blue-react. Already contains Bootstrap 4. */
+@import "~blue-react/dist/style.scss";
+
+/* Stylesheet for blueicon, if you use it. */
+// $bi-fonts-direction: "~blueicon/fonts/";
+// @import "~blueicon/blueicon";
+
+/* Make look Bootstrap icons a little bit better */
+.bi {
+    @extend .mb-1;
+}
