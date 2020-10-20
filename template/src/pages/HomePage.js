@@ -1,7 +1,7 @@
-import React from "react";
-import { Page, Header, HeaderTitle, Body, FluentBtn } from "blue-react";
+import React from "react"
+import { Page, Header, HeaderTitle, Body, FluentBtn } from "blue-react"
 
-import { appLogo, appTitle, getPhrase as _ } from "../shared";
+import { appLogo, appTitle, getPhrase as _ } from "../shared"
 
 function HomePage() {
     return (
@@ -18,10 +18,10 @@ function HomePage() {
                     onClick={() => alert(_("HELLO_WORLD"))}
                 >
                     Why don't you click this
-                    </FluentBtn>
+                </FluentBtn>
             </Body>
         </Page>
-    );
+    )
 }
 
-export default HomePage;
+export default HomePage

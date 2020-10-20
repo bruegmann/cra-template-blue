@@ -2,7 +2,8 @@
     "package": {
         "dependencies": {
             "blue-react": "latest",
-            "node-sass": "latest"
+            "node-sass": "latest",
+            "react-bootstrap-icons": "latest"
         }
     }
 }

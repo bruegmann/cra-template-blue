@@ -1,11 +1,10 @@
-import React from "react";
-import { Grid, SidebarMenu, MenuItem } from "blue-react";
+import React from "react"
+import { Grid, SidebarMenu, MenuItem } from "blue-react"
+import { List, House, XCircleFill, InfoCircleFill, CheckCircleFill, ExclamationCircleFill } from "react-bootstrap-icons"
 
-import List from "./icons/List";
-import House from "./icons/House";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/HomePage"
 
-import "./styles/main.scss";
+import "./styles/main.scss"
 
 function App() {
     return (
@@ -18,12 +17,18 @@ function App() {
                     component: <HomePage />
                 }
             ]}
+            statusIcons={{
+                danger: <XCircleFill />,
+                info: <InfoCircleFill />,
+                success: <CheckCircleFill />,
+                warning: <ExclamationCircleFill />
+            }}
         >
             <SidebarMenu>
                 <MenuItem href="#" icon={<House />} label="Home" isHome />
             </SidebarMenu>
         </Grid>
-    );
+    )
 }
 
-export default App;
+export default App
