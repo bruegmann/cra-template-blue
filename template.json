@@ -1,9 +1,9 @@
 {
     "package": {
         "dependencies": {
-            "blue-react": "latest",
-            "node-sass": "latest",
-            "react-bootstrap-icons": "latest"
+            "blue-react": "^6.16.0",
+            "node-sass": "^4.14.1",
+            "react-bootstrap-icons": "^1.1.0"
         }
     }
 }
