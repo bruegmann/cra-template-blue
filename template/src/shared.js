@@ -1,4 +1,4 @@
-export const appLogo = require("./logo.svg")
+export const appLogo = "/logo512.png"
 export const appTitle = "My App Title"
 
 export const phrases = {
