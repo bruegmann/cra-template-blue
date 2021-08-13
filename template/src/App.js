@@ -1,5 +1,5 @@
 import { Grid, SidebarMenu, MenuItem } from "blue-react"
-import { List, House, XCircleFill, InfoCircleFill, CheckCircleFill, ExclamationCircleFill } from "react-bootstrap-icons"
+import { List, House, HouseFill, XCircleFill, InfoCircleFill, CheckCircleFill, ExclamationCircleFill } from "react-bootstrap-icons"
 
 import HomePage from "./pages/HomePage"
 
@@ -24,7 +24,7 @@ export default function App() {
             }}
         >
             <SidebarMenu>
-                <MenuItem href="#" icon={<House />} label="Home" isHome />
+                <MenuItem href="#" icon={<House />} iconForActive={<HouseFill />} label="Home" isHome />
             </SidebarMenu>
         </Grid>
     )
