@@ -1,12 +1,16 @@
 export const appLogo = "/logo512.png"
 export const appTitle = "My App Title"
 
-export const phrases = {
+interface IPhrases {
+    [key: string]: string[]
+}
+
+export const phrases: IPhrases = {
     "HELLO_WORLD": ["Hello World!", "Hallo Welt!"]
 }
 
-export function getPhrase(keyword, countryCode, _phrases) {
-    countryCode = countryCode || (navigator.language || navigator.userLanguage).toLowerCase().indexOf("de") > -1 ? "de-DE" : "en-US"
+export function getPhrase(keyword: string, countryCode: string | undefined = undefined, _phrases: IPhrases | undefined = undefined) {
+    countryCode = countryCode || (navigator.language).toLowerCase().indexOf("de") > -1 ? "de-DE" : "en-US"
     _phrases = _phrases || phrases
 
     if (_phrases[keyword]) {
