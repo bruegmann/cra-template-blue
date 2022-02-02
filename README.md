@@ -4,10 +4,10 @@
 
 # cra-template-blue
 
-Create React App template for [Blue React v7](https://bruegmann.github.io/blue-react/v7/).
+Create React App template for [Blue React v8](https://bruegmann.github.io/blue-react/v8/).
 
 [![npm version](https://img.shields.io/npm/v/cra-template-blue)](https://www.npmjs.com/package/cra-template-blue)
 
 ```
-npx create-react-app@latest my-app --template blue@7
+npx create-react-app@latest my-app --template blue@8
 ```
