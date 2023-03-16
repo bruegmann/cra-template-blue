@@ -11,3 +11,11 @@ Create React App template for [Blue React v8](https://bruegmann.github.io/blue-r
 ```
 npx create-react-app@latest my-app --template blue@8
 ```
+
+## Debug template
+
+Test template locally:
+
+```
+npx create-react-app@latest my-app --template file:C:\projects\cra-template-blue
+```

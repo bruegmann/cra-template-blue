@@ -2,14 +2,12 @@
 
 @import "./theme";
 
-/* Stylesheet for blue-react. Already contains Bootstrap 4. */
+/* Stylesheet for blue-react. Already contains Bootstrap. */
 @import "~blue-react/dist/style.scss";
 
-/* Stylesheet for blueicon, if you use it. */
-// $bi-fonts-direction: "~blueicon/fonts/";
-// @import "~blueicon/blueicon";
-
-/* Make look Bootstrap icons a little bit better */
+/* Make look Bootstrap Icons a little bit better */
 .bi {
-    @extend .mb-1;
+    display: inline-block;
+    vertical-align: -0.125em;
+    fill: currentcolor;
 }

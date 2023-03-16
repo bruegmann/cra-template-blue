@@ -1,8 +1,6 @@
 {
     "package": {
         "dependencies": {
-            "@testing-library/jest-dom": "^5.16.4",
-            "@testing-library/react": "^13.3.0",
             "@types/react": "^18.0.10",
             "@types/react-dom": "^18.0.5",
             "blue-react": "^8.0.0",
