@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "../styles/theme";
+@import "~blue-react/dist/neu";
+
+.customNeuBtn {
+    @include neu($theme, $primary);
+    &:hover {
+        @include neu($theme, shade-color($primary, $btn-hover-bg-shade-amount));
+    }
+}

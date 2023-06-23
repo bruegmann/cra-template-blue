@@ -1,5 +1,13 @@
-import { Layout, SidebarMenu, MenuItem } from "blue-react"
-import { List, House, HouseFill, XCircleFill, InfoCircleFill, CheckCircleFill, ExclamationCircleFill } from "react-bootstrap-icons"
+import { Layout, SidebarMenu, SidebarMenuItem } from "blue-react"
+import {
+    List,
+    House,
+    HouseFill,
+    XCircleFill,
+    InfoCircleFill,
+    CheckCircleFill,
+    ExclamationCircleFill
+} from "react-bootstrap-icons"
 
 import HomePage from "./pages/HomePage"
 
@@ -23,8 +31,8 @@ export default function App() {
                 warning: <ExclamationCircleFill />
             }}
         >
-            <SidebarMenu>
-                <MenuItem href="#" icon={<House />} iconForActive={<HouseFill />} label="Home" isHome />
+            <SidebarMenu sidebarClass="overflow-visible" menuClass="overflow-visible">
+                <SidebarMenuItem href="#" icon={<House />} iconForActive={<HouseFill />} label="Home" isHome />
             </SidebarMenu>
         </Layout>
     )

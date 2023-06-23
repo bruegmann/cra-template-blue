@@ -1,6 +1,6 @@
 {
     "name": "cra-template-blue",
-    "version": "8.1.0",
+    "version": "9.0.0",
     "description": "Blue React template for Create React App",
     "main": "template.json",
     "repository": {
