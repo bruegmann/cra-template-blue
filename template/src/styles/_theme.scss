@@ -1,7 +1,11 @@
-$primary: #655be9;
-$body-bg: #efeeee;
-$theme: $body-bg;
+$theme: #efeeee;
 $body-color: #212529;
 $sidebar-color: $body-color;
 $header-color: $body-color;
+$primary: #0d6efd;
 $sidebar-indicator-color: $primary;
+$scrollbar-thumb-color: $body-color;
+
+// Enables dark mode depending on user's device settings.
+// See main.scss to see color values for dark mode.
+$color-mode-type: media-query;

@@ -1,13 +1,30 @@
-/* Hint: Use Themify to customize the look of your Blue app! */
-
+// Hint: Use Themify to customize the look of your Blue app!
 @import "./theme";
 
-/* Stylesheet for blue-react. Already contains Bootstrap. */
+// Stylesheet for blue-react. Already contains Bootstrap.
 @import "~blue-react/dist/style";
 
-/* Make look Bootstrap Icons a little bit better */
+// Make look Bootstrap Icons a little bit better
 .bi {
     display: inline-block;
     vertical-align: -0.125em;
     fill: currentcolor;
+}
+
+@include color-mode(dark) {
+    $theme: #111;
+
+    :root {
+        --theme: #{$theme};
+        --bs-theme: #{$theme};
+        --bs-theme-rgb: #{red($theme)}, #{green($theme)}, #{blue($theme)};
+        --blue-sidebar-bg: var(--bs-theme);
+        --blue-sidebar-color: white;
+        --blue-app-bg: var(--bs-theme);
+        --blue-scrollbar-thumb-color-rgb: 255, 255, 255;
+    }
+
+    .blue-header {
+        color: white;
+    }
 }
